@@ -1,0 +1,32 @@
+.vagas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.vaga__departamento{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--cor-fonte-principal);
+    margin: 0 0 2em 16em;
+}
+.vaga__descricao{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0 10em 2em 20em;
+}
+.vaga__descricao-titulo{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 1.5em 0 0 1.5em;
+}
+.vaga__descricao-info{
+    display: flex;
+    font-weight: 500;
+    color: var(--cinza-claro);
+    margin: 1.5em 0 0 1.5em;
+}
+.vaga__info{
+    margin: 2em 1.5em 1.5em ;
+}

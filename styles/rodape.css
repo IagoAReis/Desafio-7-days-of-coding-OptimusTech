@@ -1,0 +1,39 @@
+.rodape{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--branco-secundario);
+}
+.rodape__titulo{
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 3em;
+    letter-spacing: -2px;
+}
+.rodape__texto{
+    font-size: 20px;
+    color: var(--cinza-claro);
+    margin: 1.25em 0 2.5em 0;
+}
+.cadastro{
+    margin-bottom: 2em;
+}
+.cadastro__email{
+    border: 1px solid var(--cinza-secundario);
+    border-radius: 4px;
+    padding: 1em;
+    width: 20%;
+}
+.cadastro__botao{
+    border: 1px solid var(--vermelho);
+    border-radius: 8px;
+    padding: 1em;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    text-decoration: none;
+}
+.rodape__direitos{
+    color: var(--cinza-secundario);
+    margin-bottom: 3em;
+}

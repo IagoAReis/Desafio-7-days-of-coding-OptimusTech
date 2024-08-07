@@ -1,0 +1,33 @@
+.colaboradores{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5em;
+}
+.colaboradores__caixa{
+    border: 1px solid var(--vermelho-claro);
+    background-color: var(--vermelho-claro);
+    margin: 0 7em 6em 7em;
+}
+.colaboradores__titulo{
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 14px;
+    margin: 4em 4em 1em 4em;
+}
+.colaboradores__texto{
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: -2px;
+    margin: 0 4em 2em 4em;
+}
+.colaboradores__foto-pessoa{
+    font-weight: 500;
+    margin: 1em 0 0.5em 0;
+}
+.colaboradores__foto-cargo{
+    font-size: 14px;
+    color: var(--cinza-claro);
+    margin-bottom: 4em;
+}
